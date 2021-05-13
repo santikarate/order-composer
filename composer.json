@@ -1,0 +1,21 @@
+{
+    "name": "santi-moreu/order-composer",
+    "description": "My api order",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Santi Moreu",
+            "email": "santimoreu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
